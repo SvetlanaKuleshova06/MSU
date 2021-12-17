@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>HYBRID confa</title>
+<style type="text/css">
+header, section, footer, aside, nav, article, figure, figcaption {
+display: block;}
+body {
+color: #666666;
+background-color: #f9f8f6;
+background-image: url("images/fon.png");
+background-position: center;
+font-family: Georgia, Times, serif;
+line-height: 1.4em;
+margin: 0px;}
+.wrapper {
+width: 940px;
+margin: 20px auto 20px auto;
+border: 2px solid #000000;
+background-color: #ffffff;}
+header {
+height: 160px;
+background-image: url(images/namehead1.png);}
+h1 {
+text-indent: -9999px;
+width: 940px;
+height: 130px;
+margin: 0px;}
+nav, footer {
+clear: both;
+color: #ffffff;
+background-color: #a9e00d;
+height: 30px;}
+nav ul {
+margin: 0px;
+padding: 5px 0px 5px 30px;}
+nav li {
+display: inline;
+margin-right: 40px;}
+nav li a {
+color: #ffffff;}
+nav li a:hover, nav li a.current {
+color: #000000;}
+section.courses {
+float: left;
+width: 659px;
+border-right: 1px solid #eeeeee;}
+article {
+clear: both;
+overflow: auto;
+width: 100%;}
+hgroup {
+margin-top: 40px;}
+figcaption {
+font-size: 90%;
+text-align: left;}
+a {
+color: #666666;
+text-decoration: none;}
+
+
+
+
+
+
+
+th {
+  font-size: 20px;
+  font-weight: normal;
+  background: #ffffff;
+  border-bottom: 1px solid #666666;
+  color: #666666;
+  padding: 10px;
+}
+td {
+  background: #ffffff;
+  border-bottom: 1px solid #666666;
+  color: #666666;
+  padding: 10px;
+}
+tr:hover td {
+  background: #effdda;
+}
+
+
+
+
+
+
+
+
+
+* {
+font-family: Arial, Verdana, sans-serif;
+color: #666666;}
+	input {
+				border-bottom: 1px dotted #dcdcdc;
+				border-top: none;
+				border-right: none;
+				border-left: none;
+				padding: 5px;
+				width: 280px;
+				margin-bottom: 20px;}
+			input:focus {
+				border: 1px dotted #dcdcdc;
+				outline: none;}
+			input#submit {
+				color: #ffffff;
+				background-color: #666666;
+				border: none;
+				border-radius: 5px;
+				width: 80px;}
+			input#submit:hover {
+				color: #666666;
+				background-color: #efefef;}
+			fieldset {
+				width: 350px;
+				border: 1px solid #dcdcdc;
+				border-radius: 10px;
+				padding: 20px;
+				text-align: right;}
+			legend {
+				background-color: #efefef;
+				border: 1px solid #dcdcdc;
+				border-radius: 10px;
+				padding: 10px 20px;
+				text-align: left;
+				text-transform: uppercase;}
+				
+footer {
+font-size: 80%;
+padding: 7px 0px 0px 20px;}
+</style>
+
+</head>
+<body>
+<div class="wrapper">
+<header>
+<h1>HYBRID confa</h1>
+<nav>
+<ul>
+<li><a href="Главная страница.html" >Главная</a></li>
+<li><a href="Программа.html">Программа</a></li>
+<li><a href="Купитьбилет.html"class="current">Купить билет</a></li>
+<li><a href="О нас.html">О нас</a></li>
+<li><a href="Контакты.html">Контакты</a></li>
+</ul>
+</nav>
+</header>
+
+<h2>Тарифы</h2>
+<hr />
+<center>
+<table>
+  <tr>
+    <th style="width:60%">Возможности</th>
+    <th>MIN</th>
+    <th>MAX</th>
+  </tr>
+  <tr>
+    <td>Afterparty</td>
+    <td>&#10006</td>
+    <td>&#10004</td>
+  </tr>
+  <tr>
+    <td>Доступ в чат участников</td>
+    <td>&#10004</td>
+    <td>&#10004</td>
+  </tr>
+  <tr>
+    <td>Заиси всех выступлений</td>
+    <td>&#10004</td>
+    <td>&#10004</td>
+  </tr>
+  <tr>
+    <td>Возможность задавать вопросы спикерам во время выступления</td>
+    <td>&#10006</td>
+    <td>&#10004</td>
+  </tr>
+  <tr>
+    <td>Чай/кофе и печеньки</td>
+    <td>&#10004</td>
+    <td>&#10004</td>
+  </tr>
+  <tr>
+    <td>Цена</td>
+    <td>$25</td>
+    <td>$50</td>
+  </tr>
+</table></center>
+<p>   </p>
+<center><form>
+			<fieldset>
+				<legend>Купить билет</legend>
+				<label for="name">Имя: </label><input type="text" id="name" />
+				<label for="email">Email: </label><input type="text" id="email" />
+				
+				<center><select name="vibor">
+				<option value="max"> MAX </option>
+				<option value="min"> MIN </option>
+				</select></center>
+				
+				
+
+
+				<input type="submit" value="Отправить" id="submit" />
+			</fieldset>
+		</form></center>
+		<p> </p>
+		<p> </p>
+<footer>
+&copy; 2021 Кулешова Светлана"
+</footer>
+</div><!— .wrapper —>
+</body>
+</html>
